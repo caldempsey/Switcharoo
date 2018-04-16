@@ -1,0 +1,4 @@
+A indicates GigabitEthernet
+B indicates 10-GigabitEthernet
+C indicates 40-GigabitEthernet
+D indicates 100-GigabitEthernet

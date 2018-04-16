@@ -1,0 +1,323 @@
+=<STATICTEXT>= 
+#
+interface NULL0
+#
+interface Vlan-interface1
+ shutdown
+ ip address dhcp-alloc client-identifier mac Vlan-interface1
+#
+=<ENDSTATICTEXT>=
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface GigabitEthernet1/0/26
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface GigabitEthernet2/0/25
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface GigabitEthernet2/0/26
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/1
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/2
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/3
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/4
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/5
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/6
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/7
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/8
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/9
+ port link-mode bridge
+ description ukbildbrz040185
+ port access vlan 498
+ undo enable snmp trap updown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/10
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/11
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/12
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/13
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/14
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/15
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/16
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/17
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/18
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/19
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/20
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/21
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/22
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/23
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet1/0/24
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/1
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/2
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/3
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/4
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/5
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/6
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/7
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/8
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/9
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/10
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/11
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/12
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/13
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/14
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/15
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/16
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/17
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/18
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/19
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/20
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/21
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/22
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/23
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+interface Ten-GigabitEthernet2/0/24
+ port link-mode bridge
+ port access vlan 999
+ shutdown
+ stp edged-port enable
+#
+
